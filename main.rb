@@ -1,7 +1,5 @@
 require './weather'
 
-buf = "test"
-
 #天気取得
 weather_main("Sendai-shi")
 puts ""

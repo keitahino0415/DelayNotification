@@ -1,4 +1,6 @@
+# coding: utf-8
 require 'net/http'
+require 'net/https'
 require 'uri'
 require 'json'
 require 'OpenSSL'
@@ -35,17 +37,28 @@ def get_weather(city_name)
   return result
 end
 
-def post_weather
-    uri = URI.parse("https://script.google.com/macros/s/AKfycbycd6cPkZqPLuN1ypTvKj1U2as71FfO3dp1bdsFazUYibEOR7M/exec")
-    http = Net::HTTP.new(uri.host, uri.port)
+def post_weather(weather_array)
 
-    http.use_ssl = true
-    http.verify_mode = OpenSSL::SSL::VERIFY_NONE
 
-    req = Net::HTTP::Post.new(uri.path)
-    req.set_form_data({'name' => 'hoge', 'content' => 'hogehoge'})
+# weather_array.each {|weather|
+#   puts weather
+# }
 
-    #res = http.request(req)
+#     uri = URI.parse("https://script.google.com/macros/s/AKfycbycd6cPkZqPLuN1ypTvKj1U2as71FfO3dp1bdsFazUYibEOR7M/exec")
+#     uri = URI.parse("https://script.google.com/macros/s/AKfycbyREn7jEXyje1hhMIJZPzvQW2fJaPrAqmLpsn7fmCA/dev")
+#     uri = URI.parse("https://script.google.com/macros/s/AKfycbycd6cPkZqPLuN1ypTvKj1U2as71FfO3dp1bdsFazUYibEOR7M/exec")
+     # uri = URI.parse("https://script.google.com/macros/s/AKfycbycd6cPkZqPLuN1ypTvKj1U2as71FfO3dp1bdsFazUYibEOR7M/exec")
+     # http = Net::HTTP.new(uri.host, uri.port)
+     # http.use_ssl = true
+     # http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+     #
+     # puts weather_json
+     # req = Net::HTTP::Post.new(uri.path)
+#     req.set_form_data(weather_json)
+
+     res = http.request(req)
+     puts res
+     return
 end
 
 def weather_main(city_name)
@@ -59,6 +72,7 @@ def weather_main(city_name)
   wind_deg = get_direction(root_json["wind"]["deg"])
   rain_check = get_stat(root_json["rain"])
   snow_check = get_stat(root_json["snow"])
+  weather_array = []
 
   #確認用
   puts city_name
@@ -67,10 +81,29 @@ def weather_main(city_name)
   puts " 風向き:" << wind_deg.to_s
   puts " 風速:" << wind_speed.to_s << "m/s"
 
-#  weather_json = {name: city_name , city: 1}
-#  puts weather_json["name"]
+  weather_json = JSON.generate({"weather" => { \
+                                "city_name" => city_name \
+                              , "rain_check" => rain_check \
+                              , "snow_check" => snow_check \
+                              , "wind_deg" => wind_deg \
+                              , "wind_speed" => wind_speed}})
 
-#  puts post_weather
-#  buf = log_write
+  test_hash =   {"weather" => { \
+                  "city_name" => city_name \
+                , "rain_check" => rain_check \
+                , "snow_check" => snow_check \
+                , "wind_deg" => wind_deg \
+                , "wind_speed" => wind_speed}}
+
+  weather_array << city_name
+  weather_array << rain_check
+  weather_array << snow_check
+  weather_array << wind_deg
+  weather_array << wind_speed
+
+  puts weather_array[0]
+
+  #post_weather(weather_array)
+#  puts weather_json
 
 end
