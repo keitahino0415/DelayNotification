@@ -19,9 +19,14 @@ def table_isexist(w_arr,db)
   end
  end
 
-def insert_log(w_arr,db)
+def insert_log(w_arr,db,log)
   ret = db.execute "INSERT INTO Log(CreateDate,City_Name,Rain_Check,Snow_Check,Wind_Deg,Wind_Speed)
            VALUES ('#{w_arr[0]}' , '#{w_arr[1]}','#{w_arr[2]}','#{w_arr[3]}','#{w_arr[4]}','#{w_arr[5]}')"
+  log.info("  実行SQL-------------------------------------------------------------------------------------------")
+  log.info("   INSERT INTO Log(CreateDate,City_Name,Rain_Check,Snow_Check,Wind_Deg,Wind_Speed)")
+  log.info("   VALUES ('#{w_arr[0]}' , '#{w_arr[1]}','#{w_arr[2]}','#{w_arr[3]}','#{w_arr[4]}','#{w_arr[5]}')")
+  log.info("  -------------------------------------------------------------------------------------------------")
+
   puts ret
 end
 
@@ -32,7 +37,7 @@ def log(w_arr,log)
     if table_isexist(w_arr,db) == false
       create_table(w_arr,db)
     end
-    insert_log(w_arr,db)
+    insert_log(w_arr,db,log)
     log.info(" ログ書き込み処理 正常終了")
     return  true
   rescue
