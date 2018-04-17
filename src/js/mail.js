@@ -29,10 +29,10 @@ client.on('connect', function() {
 client.on("new", function(message) {
   var tmp = [];
 
-    console.log('日時:' + message.date);
-    console.log('送信者:' + message.from.name + '-' + message.from.address);
-    console.log('タイトル:' + message.title);
-    console.log('type:' + message.type);
+    // console.log('日時:' + message.date);
+    // console.log('送信者:' + message.from.name + '-' + message.from.address);
+    // console.log('タイトル:' + message.title);
+    // console.log('type:' + message.type);
 
     //ruby実行
     const exec = require('child_process').exec;
@@ -44,13 +44,6 @@ client.on("new", function(message) {
 
   client.createMessageStream(message.UID).on("data", function(data){
      var body = conv.convert(data).toString();
-     //console.log(body)
-
-     // if(body.indexOf(phrase) != -1) {
-     //     tmp = body.split(phrase);
-     //     tmp = tmp[1].split(endPhrase);
-     //     console.log('今日の一言:', tmp[0]);
-     //   }
         });
 
 });

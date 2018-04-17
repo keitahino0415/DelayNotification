@@ -34,6 +34,7 @@ def get_weather(city_name)
   uri = URI.parse("http://api.openweathermap.org/data/2.5/find?q=#{city_name},jp&units=metric&APPID=#{api_key}")
   json = Net::HTTP.get(uri)
   result =  JSON.parse(json)
+  puts result
   code = result["count"]
   if code != 0
     return result

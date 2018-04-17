@@ -1,3 +1,3 @@
 cd ../ruby
-ruby main.rb
+ruby weather_main.rb
 #ruby ../ruby/main.rb
