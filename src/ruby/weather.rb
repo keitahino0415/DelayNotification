@@ -29,15 +29,15 @@ def get_stat(check_target)
   end
 end
 
-def get_weather(city_name)
+def get_weather(city_name,result)
   api_key = 'a8fe10ee1619eadb53849afee0eb18cc'
   uri = URI.parse("http://api.openweathermap.org/data/2.5/find?q=#{city_name},jp&units=metric&APPID=#{api_key}")
   json = Net::HTTP.get(uri)
-  result =  JSON.parse(json)
-  puts result
-  code = result["count"]
+
+  result.push(JSON.parse(json))
+  code = result[0]["count"]
   if code != 0
-    return result
+    return true
   else
     return false
   end
@@ -46,17 +46,20 @@ end
 
 def weather_main(city_name,weather_array,log)
   begin
+    #変数定義
+    result = []
+
     log.info(' 天気取得処理 開始')
-    if get_weather(city_name) != false
-      result = get_weather(city_name)
-    else
+    if !get_weather(city_name,result)
       puts '天気情報の取得に失敗しました。'
       puts "[#{city_name}]の名称が正しいか確認してください。"
       log.error("  [#{city_name}]の名称が正しいか確認してください。")
     end
 
+    puts result
+
     #ルート設定
-    root_json = result["list"][0]
+    root_json = result[0]["list"][0]
 
     #値セット
     wind_speed = root_json["wind"]["speed"]

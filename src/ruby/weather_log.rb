@@ -19,7 +19,7 @@ def table_isexist(w_arr,db)
   end
  end
 
-def insert_log(w_arr,db,log)
+def log_insert(w_arr,db,log)
   ret = db.execute "INSERT INTO Log(CreateDate,City_Name,Rain_Check,Snow_Check,Wind_Deg,Wind_Speed)
            VALUES ('#{w_arr[0]}' , '#{w_arr[1]}','#{w_arr[2]}','#{w_arr[3]}','#{w_arr[4]}','#{w_arr[5]}')"
   log.info("  実行SQL-------------------------------------------------------------------------------------------")
@@ -30,14 +30,14 @@ def insert_log(w_arr,db,log)
   puts ret
 end
 
-def log(w_arr,log)
+def log_update(w_arr,log)
   begin
     log.info(" ログ書き込み処理 開始")
     db = SQLite3::Database.open "../../DB/weather_db/#{w_arr[1]}.db"
     if table_isexist(w_arr,db) == false
       create_table(w_arr,db)
     end
-    insert_log(w_arr,db,log)
+    log_insert(w_arr,db,log)
     log.info(" ログ書き込み処理 正常終了")
     return  true
   rescue
