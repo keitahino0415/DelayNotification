@@ -53,7 +53,6 @@ def evaluation_latest(eva_value,db,log)
   end
 end
 
-#次回ここから(しきい値と3,6,9時間後の風力を比較して、通知するか判定)
 def evaluation_decision(city_name,array_avg,delay_date,log)
 
   #変数定義
@@ -86,7 +85,7 @@ end
 
 def weather_prediction(city_name,result)
   begin
-    api_key = 'a8fe10ee1619eadb53849afee0eb18cc'
+    api_key = ENV['OPEN_WEATHER_APIKEY']
     uri = URI.parse("http://api.openweathermap.org/data/2.5/forecast?q=#{city_name},jp&units=metric&APPID=#{api_key}")
     json = Net::HTTP.get(uri)
     result.push(JSON.parse(json))

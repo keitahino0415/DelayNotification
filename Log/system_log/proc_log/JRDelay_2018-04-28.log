@@ -701,3 +701,43 @@ I, [2018-04-28T13:53:34.053285 #36258]  INFO -- :     notification_dalay Start
 I, [2018-04-28T13:53:34.264671 #36258]  INFO -- :     notification_dalay NormalEnd
 I, [2018-04-28T13:53:34.264840 #36258]  INFO -- :   Train delay notification processing NormalEnd
 I, [2018-04-28T13:53:34.264876 #36258]  INFO -- : --------------------------------------------------
+I, [2018-04-28T14:28:58.224591 #36626]  INFO -- : --------------------------------------------------
+I, [2018-04-28T14:28:58.224675 #36626]  INFO -- :   Recording processing of weather information Start
+I, [2018-04-28T14:28:58.224701 #36626]  INFO -- :     weather_main start
+I, [2018-04-28T14:28:58.517161 #36626]  INFO -- :     weather_main NormalEnd
+I, [2018-04-28T14:28:58.517269 #36626]  INFO -- :     log_update Start
+I, [2018-04-28T14:28:58.525860 #36626]  INFO -- :       Execution SQL-------------------------------------------------------------------------------------------
+I, [2018-04-28T14:28:58.525943 #36626]  INFO -- :         INSERT INTO Log(CreateDate,City_Name,Rain_Check,Snow_Check,Wind_Deg,Wind_Speed)
+I, [2018-04-28T14:28:58.525984 #36626]  INFO -- :         VALUES ('2018-04-28' , 'Ishinomaki','true','true','北東','5.1')
+I, [2018-04-28T14:28:58.526009 #36626]  INFO -- :       --------------------------------------------------------------------------------------------------------
+I, [2018-04-28T14:28:58.526041 #36626]  INFO -- :     log_update NormalEnd
+I, [2018-04-28T14:28:58.526130 #36626]  INFO -- :   Recording processing of weather information NormalEnd
+I, [2018-04-28T14:28:58.526158 #36626]  INFO -- : --------------------------------------------------
+I, [2018-04-28T14:31:19.534723 #36648]  INFO -- : --------------------------------------------------
+I, [2018-04-28T14:31:19.534796 #36648]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T14:31:19.535728 #36648]  INFO -- :     notification_get　Start
+I, [2018-04-28T14:31:19.536185 #36648]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T14:31:19.536219 #36648]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T14:31:19.542864 #36648]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T14:31:19.542972 #36648]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T14:31:19.543116 #36648]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T14:31:19.543148 #36648]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T14:31:19.883829 #36648]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-04-28T14:31:19.883945 #36648]  INFO -- :     notification_dalay Start
+I, [2018-04-28T14:31:20.102109 #36648]  INFO -- :     notification_dalay NormalEnd
+I, [2018-04-28T14:31:20.102339 #36648]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-04-28T14:31:20.102392 #36648]  INFO -- : --------------------------------------------------
+I, [2018-04-28T14:34:56.300867 #36696]  INFO -- : --------------------------------------------------
+I, [2018-04-28T14:34:56.300944 #36696]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T14:34:56.301807 #36696]  INFO -- :     notification_get　Start
+I, [2018-04-28T14:34:56.302126 #36696]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T14:34:56.302163 #36696]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T14:34:56.308598 #36696]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T14:34:56.308694 #36696]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T14:34:56.308916 #36696]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T14:34:56.308947 #36696]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T14:34:56.568548 #36696]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-04-28T14:34:56.568702 #36696]  INFO -- :     notification_dalay Start
+I, [2018-04-28T14:34:56.698782 #36696]  INFO -- :     notification_dalay NormalEnd
+I, [2018-04-28T14:34:56.698956 #36696]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-04-28T14:34:56.698993 #36696]  INFO -- : --------------------------------------------------
