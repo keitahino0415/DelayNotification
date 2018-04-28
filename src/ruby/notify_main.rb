@@ -8,13 +8,13 @@ PROC_LINE = '--------------------------------------------------'
 
 log = Logger.new("../../Log/system_log/proc_log/JRDelay_#{Date.today}.log")
 log.info(PROC_LINE)
-log.info('電車遅延通知処理 開始')
+log.info('  Train delay notification processing Start')
 
-if !noti_main(CITY_NAME,log) then
-  log.error('電車遅延通知処理 異常終了')
+if !notification_main(CITY_NAME,log) then
+  log.error('  Train delay notification processing AbnormalEnd')
   log.info(PROC_LINE)
   exit
 end
 
-log.info('電車遅延通知処理 終了')
+log.info('  Train delay notification processing NormalEnd')
 log.info(PROC_LINE)

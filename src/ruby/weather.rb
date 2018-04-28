@@ -49,14 +49,10 @@ def weather_main(city_name,weather_array,log)
     #変数定義
     result = []
 
-    log.info(' 天気取得処理 開始')
+    log.info("    #{__method__} start")
     if !get_weather(city_name,result)
-      puts '天気情報の取得に失敗しました。'
-      puts "[#{city_name}]の名称が正しいか確認してください。"
-      log.error("  [#{city_name}]の名称が正しいか確認してください。")
+      log.error("      Please check that the name of the [#{city_name}] is correct")
     end
-
-    puts result
 
     #ルート設定
     root_json = result[0]["list"][0]
@@ -75,10 +71,10 @@ def weather_main(city_name,weather_array,log)
     weather_array.push(wind_deg)
     weather_array.push(wind_speed)
 
-    log.info(' 天気取得処理 正常終了')
+    log.info("    #{__method__} NormalEnd")
     return true
   rescue
-    log.error(' 天気情報取得処理 異常終了')
+    log.error("    #{__method__} AbnormalEnd")
     return false
   end
 
