@@ -101,13 +101,44 @@ def weather_prediction(city_name,result)
   end
 end
 
-def notification_dalay(delay_date)
+def notification_dalay(delay_date,log)
+  begin
+    log.info("    #{__method__} Start")
     buf = []
+    count = 0
 
-    system("bash ../shell/noti.sh 本日、下記の時間帯にJRが遅延する恐れがあります。\n")
+    buf << "本日、下記の時間帯にJRが遅延する恐れがあります"
+
     delay_date.each do |msg|
-      system("bash ../shell/noti.sh #{msg}")
+      buf << msg
     end
+
+    message = <<-EOS
+    #{buf.each do
+      buf[count]
+      count = count + 1
+     end}
+    EOS
+    uri = URI.parse("https://notify-api.line.me/api/notify")
+    request = Net::HTTP::Post.new(uri)
+    request["Authorization"] = "Bearer jxYKtF5C7A0AYWp10m9adqrykZwuQIkQRXQVHm8L3hi"
+    request.set_form_data(
+      "message" => "#{message}",
+    )
+
+    req_options = {
+      use_ssl: uri.scheme == "https",
+    }
+
+    response = Net::HTTP.start(uri.hostname, uri.port, req_options) do |http|
+      http.request(request)
+    end
+    log.info("    #{__method__} NormalEnd")
+  rescue
+    log.error("    #{__method__} AbnormalEnd")
+    return false
+  end
+
 end
 
 def notification_main(city_name,log)
@@ -135,7 +166,7 @@ def notification_main(city_name,log)
       return false
     end
     if delay_date != 0 then
-      if !notification_dalay(delay_date) then
+      if !notification_dalay(delay_date,log) then
         return false
       end
     end

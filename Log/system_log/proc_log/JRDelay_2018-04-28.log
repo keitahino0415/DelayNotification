@@ -399,3 +399,305 @@ I, [2018-04-28T12:49:28.400536 #35539]  INFO -- :     evaluation_decision Start
 I, [2018-04-28T12:49:28.761149 #35539]  INFO -- :     evaluation_decision NormalEnd
 I, [2018-04-28T12:49:30.807073 #35539]  INFO -- :   Train delay notification processing NormalEnd
 I, [2018-04-28T12:49:30.807190 #35539]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:11:53.882723 #35723]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:11:53.882822 #35723]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:11:53.883872 #35723]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:11:53.884202 #35723]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:11:53.884241 #35723]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:11:53.885388 #35723]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:11:53.885436 #35723]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:11:53.885583 #35723]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:11:53.885617 #35723]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:11:54.268307 #35723]  INFO -- :     evaluation_decision NormalEnd
+E, [2018-04-28T13:11:54.268607 #35723] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-04-28T13:11:54.268678 #35723]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:13:52.544837 #35742]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:13:52.544970 #35742]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:13:52.545818 #35742]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:13:52.546110 #35742]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:13:52.546140 #35742]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:13:52.552705 #35742]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:13:52.552780 #35742]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:13:52.552890 #35742]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:13:52.552920 #35742]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:13:52.915380 #35742]  INFO -- :     evaluation_decision NormalEnd
+E, [2018-04-28T13:13:52.915629 #35742] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-04-28T13:13:52.915671 #35742]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:17:25.187113 #35777]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:17:25.187187 #35777]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:17:25.188082 #35777]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:17:25.188392 #35777]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:17:25.188437 #35777]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:17:25.194628 #35777]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:17:25.194685 #35777]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:17:25.194785 #35777]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:17:25.194813 #35777]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:17:25.607034 #35777]  INFO -- :     evaluation_decision NormalEnd
+E, [2018-04-28T13:17:25.607443 #35777] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-04-28T13:17:25.607496 #35777]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:20:56.755965 #35812]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:20:56.756031 #35812]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:20:56.756734 #35812]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:20:56.757005 #35812]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:20:56.757035 #35812]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:20:56.763645 #35812]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:20:56.763751 #35812]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:20:56.763882 #35812]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:20:56.763934 #35812]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:20:57.146145 #35812]  INFO -- :     evaluation_decision NormalEnd
+E, [2018-04-28T13:20:57.418106 #35812] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-04-28T13:20:57.418212 #35812]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:22:26.704155 #35857]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:22:26.704226 #35857]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:22:26.705025 #35857]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:22:26.705406 #35857]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:22:26.705436 #35857]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:22:26.711824 #35857]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:22:26.711882 #35857]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:22:26.712023 #35857]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:22:26.712054 #35857]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:22:27.106367 #35857]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-04-28T13:22:27.526629 #35857]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-04-28T13:22:27.526721 #35857]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:26:45.542351 #35877]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:26:45.542426 #35877]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:26:45.543279 #35877]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:26:45.543575 #35877]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:26:45.543608 #35877]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:26:45.550169 #35877]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:26:45.550233 #35877]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:26:45.550353 #35877]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:26:45.550379 #35877]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:26:45.905388 #35877]  INFO -- :     evaluation_decision NormalEnd
+E, [2018-04-28T13:26:45.905642 #35877] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-04-28T13:26:45.905695 #35877]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:27:07.749075 #35893]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:27:07.749147 #35893]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:27:07.749965 #35893]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:27:07.750255 #35893]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:27:07.750284 #35893]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:27:07.756712 #35893]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:27:07.756806 #35893]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:27:07.756983 #35893]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:27:07.757015 #35893]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:27:08.031960 #35893]  INFO -- :     evaluation_decision NormalEnd
+E, [2018-04-28T13:27:08.032209 #35893] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-04-28T13:27:08.032259 #35893]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:27:22.766387 #35909]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:27:22.766455 #35909]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:27:22.767232 #35909]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:27:22.767569 #35909]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:27:22.767599 #35909]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:27:22.774018 #35909]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:27:22.774080 #35909]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:27:22.774273 #35909]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:27:22.774304 #35909]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:27:23.042408 #35909]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-04-28T13:27:23.276585 #35909]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-04-28T13:27:23.276676 #35909]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:28:02.025004 #35925]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:28:02.025078 #35925]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:28:02.025883 #35925]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:28:02.026188 #35925]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:28:02.026221 #35925]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:28:02.032862 #35925]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:28:02.032968 #35925]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:28:02.033149 #35925]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:28:02.033203 #35925]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:28:02.295411 #35925]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-04-28T13:28:02.607159 #35925]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-04-28T13:28:02.607243 #35925]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:28:07.470948 #35941]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:28:07.471022 #35941]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:28:07.471836 #35941]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:28:07.472142 #35941]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:28:07.472175 #35941]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:28:07.478592 #35941]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:28:07.478684 #35941]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:28:07.478824 #35941]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:28:07.478857 #35941]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:28:07.738491 #35941]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-04-28T13:28:07.965292 #35941]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-04-28T13:28:07.965384 #35941]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:28:44.879946 #35957]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:28:44.880021 #35957]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:28:44.880730 #35957]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:28:44.881097 #35957]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:28:44.881124 #35957]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:28:44.887804 #35957]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:28:44.887866 #35957]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:28:44.888027 #35957]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:28:44.888058 #35957]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:28:45.555040 #35957]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-04-28T13:28:45.695976 #35957]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-04-28T13:28:45.696067 #35957]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:29:43.465295 #35975]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:29:43.465368 #35975]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:29:43.466174 #35975]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:29:43.466495 #35975]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:29:43.466527 #35975]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:29:43.472757 #35975]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:29:43.472817 #35975]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:29:43.472932 #35975]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:29:43.472964 #35975]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:29:43.724992 #35975]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-04-28T13:29:44.010388 #35975]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-04-28T13:29:44.010480 #35975]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:31:15.745254 #35995]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:31:16.153325 #35995]  INFO -- :   Recording processing of weather information Start
+I, [2018-04-28T13:31:21.251365 #35995]  INFO -- :     weather_main start
+I, [2018-04-28T13:31:21.526626 #35995]  INFO -- :     weather_main NormalEnd
+I, [2018-04-28T13:31:21.526737 #35995]  INFO -- :     log_update Start
+I, [2018-04-28T13:31:21.535264 #35995]  INFO -- :       Execution SQL-------------------------------------------------------------------------------------------
+I, [2018-04-28T13:31:21.535340 #35995]  INFO -- :         INSERT INTO Log(CreateDate,City_Name,Rain_Check,Snow_Check,Wind_Deg,Wind_Speed)
+I, [2018-04-28T13:31:21.535382 #35995]  INFO -- :         VALUES ('2018-04-28' , 'Ishinomaki','true','true','東','4.6')
+I, [2018-04-28T13:31:21.535409 #35995]  INFO -- :       --------------------------------------------------------------------------------------------------------
+I, [2018-04-28T13:31:21.535443 #35995]  INFO -- :     log_update NormalEnd
+I, [2018-04-28T13:31:21.535540 #35995]  INFO -- :   Recording processing of weather information NormalEnd
+I, [2018-04-28T13:31:21.535570 #35995]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:31:35.995203 #36019]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:31:37.256002 #36019]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:31:41.956018 #36019]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:31:41.956851 #36019]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:31:42.732827 #36019]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:31:42.738793 #36019]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:31:44.890747 #36019]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:31:44.891220 #36019]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:31:45.941651 #36019]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:31:46.196749 #36019]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-04-28T13:33:10.772667 #36019]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-04-28T13:33:10.772772 #36019]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:36:12.011165 #36064]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:36:12.011234 #36064]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:36:12.012131 #36064]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:36:12.012459 #36064]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:36:12.012492 #36064]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:36:12.015127 #36064]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:36:12.015183 #36064]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:36:12.015283 #36064]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:36:12.015312 #36064]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:36:12.390248 #36064]  INFO -- :     evaluation_decision NormalEnd
+E, [2018-04-28T13:36:12.390599 #36064] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-04-28T13:36:12.390654 #36064]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:36:19.463501 #36080]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:36:19.463577 #36080]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:36:19.464405 #36080]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:36:19.464696 #36080]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:36:19.464727 #36080]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:36:19.471201 #36080]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:36:19.471297 #36080]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:36:19.471475 #36080]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:36:19.471512 #36080]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:36:19.734687 #36080]  INFO -- :     evaluation_decision NormalEnd
+E, [2018-04-28T13:36:19.735003 #36080] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-04-28T13:36:19.735058 #36080]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:37:12.483375 #36096]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:37:12.483446 #36096]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:37:12.484196 #36096]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:37:12.484485 #36096]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:37:12.484515 #36096]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:37:12.491273 #36096]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:37:12.491357 #36096]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:37:12.491469 #36096]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:37:12.491537 #36096]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:37:12.748751 #36096]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-04-28T13:37:13.371871 #36096]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-04-28T13:37:13.371962 #36096]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:38:11.978431 #36113]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:38:11.978501 #36113]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:38:11.979294 #36113]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:38:11.979643 #36113]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:38:11.979674 #36113]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:38:11.986356 #36113]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:38:11.986458 #36113]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:38:11.986593 #36113]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:38:11.986624 #36113]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:38:12.254138 #36113]  INFO -- :     evaluation_decision NormalEnd
+E, [2018-04-28T13:38:12.254486 #36113] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-04-28T13:38:12.254537 #36113]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:40:02.444510 #36133]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:40:02.444580 #36133]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:40:02.445354 #36133]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:40:02.445650 #36133]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:40:02.445681 #36133]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:40:02.448776 #36133]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:40:02.448838 #36133]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:40:02.448939 #36133]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:40:02.448968 #36133]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:40:02.806183 #36133]  INFO -- :     evaluation_decision NormalEnd
+E, [2018-04-28T13:40:02.806445 #36133] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-04-28T13:40:02.806487 #36133]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:40:15.132190 #36149]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:40:15.132259 #36149]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:40:15.133194 #36149]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:40:15.133462 #36149]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:40:15.133498 #36149]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:40:15.140034 #36149]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:40:15.140135 #36149]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:40:15.140284 #36149]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:40:15.140314 #36149]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:40:15.445969 #36149]  INFO -- :     evaluation_decision NormalEnd
+E, [2018-04-28T13:40:15.446285 #36149] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-04-28T13:40:15.446339 #36149]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:44:43.170936 #36175]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:44:43.171006 #36175]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:44:43.171792 #36175]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:44:43.172100 #36175]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:44:43.172134 #36175]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:44:43.178558 #36175]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:44:43.178654 #36175]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:44:43.178759 #36175]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:44:43.178789 #36175]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:44:43.561473 #36175]  INFO -- :     evaluation_decision NormalEnd
+E, [2018-04-28T13:44:43.561788 #36175] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-04-28T13:44:43.561842 #36175]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:45:27.507219 #36194]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:45:27.507290 #36194]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:45:27.508074 #36194]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:45:27.508368 #36194]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:45:27.508399 #36194]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:45:27.514849 #36194]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:45:27.514930 #36194]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:45:27.515077 #36194]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:45:27.515112 #36194]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:45:27.769787 #36194]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-04-28T13:45:28.000973 #36194]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-04-28T13:45:28.001063 #36194]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:45:42.247316 #36209]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:45:42.247389 #36209]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:45:42.248186 #36209]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:45:42.248480 #36209]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:45:42.248513 #36209]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:45:42.254748 #36209]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:45:42.254808 #36209]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:45:42.254906 #36209]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:45:42.254935 #36209]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:45:42.514444 #36209]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-04-28T13:45:42.642183 #36209]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-04-28T13:45:42.642274 #36209]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:51:01.571692 #36239]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:51:01.571765 #36239]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:51:01.572551 #36239]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:51:01.572842 #36239]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:51:01.572873 #36239]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:51:01.579348 #36239]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:51:01.579431 #36239]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:51:01.579550 #36239]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:51:01.579580 #36239]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:51:02.057653 #36239]  INFO -- :     evaluation_decision NormalEnd
+E, [2018-04-28T13:51:02.057909 #36239] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-04-28T13:51:02.057964 #36239]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:53:33.705134 #36258]  INFO -- : --------------------------------------------------
+I, [2018-04-28T13:53:33.705206 #36258]  INFO -- :   Train delay notification processing Start
+I, [2018-04-28T13:53:33.705974 #36258]  INFO -- :     notification_get　Start
+I, [2018-04-28T13:53:33.706242 #36258]  INFO -- :     notification_get　NormalEnd
+I, [2018-04-28T13:53:33.706272 #36258]  INFO -- :     evaluation_insert Start
+I, [2018-04-28T13:53:33.712528 #36258]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-04-28T13:53:33.712614 #36258]  INFO -- :     evaluation_latest Start
+I, [2018-04-28T13:53:33.712737 #36258]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-04-28T13:53:33.712800 #36258]  INFO -- :     evaluation_decision Start
+I, [2018-04-28T13:53:34.053178 #36258]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-04-28T13:53:34.053285 #36258]  INFO -- :     notification_dalay Start
+I, [2018-04-28T13:53:34.264671 #36258]  INFO -- :     notification_dalay NormalEnd
+I, [2018-04-28T13:53:34.264840 #36258]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-04-28T13:53:34.264876 #36258]  INFO -- : --------------------------------------------------
