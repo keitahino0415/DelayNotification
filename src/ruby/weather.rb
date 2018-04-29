@@ -53,6 +53,7 @@ def weather_main(city_name,weather_array,log)
     log.info("    #{__method__} start")
     if !get_weather(city_name,result)
       log.error("      Please check that the name of the [#{city_name}] is correct")
+      return false
     end
 
     #ルート設定
@@ -71,11 +72,12 @@ def weather_main(city_name,weather_array,log)
     weather_array.push(snow_check)
     weather_array.push(wind_deg)
     weather_array.push(wind_speed)
-
+    
     log.info("    #{__method__} NormalEnd")
     return true
-  rescue
-    log.error("    #{__method__} AbnormalEnd")
+  rescue => error
+    log.error("      #{error.message}")
+    log.error("    #{__method__} AbNormalEnd")
     return false
   end
 

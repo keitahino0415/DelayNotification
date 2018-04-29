@@ -20,6 +20,7 @@ def table_isexist(w_arr,db)
  end
 
 def log_insert(w_arr,db,log)
+
   ret = db.execute "INSERT INTO Log(CreateDate,City_Name,Rain_Check,Snow_Check,Wind_Deg,Wind_Speed)
            VALUES ('#{w_arr[0]}' , '#{w_arr[1]}','#{w_arr[2]}','#{w_arr[3]}','#{w_arr[4]}','#{w_arr[5]}')"
   log.info("      Execution SQL-------------------------------------------------------------------------------------------")

@@ -12,7 +12,8 @@ def notification_get(array_avg,db,log)
     array_avg.push(db.execute "SELECT ROUND(AVG(wind_speed),2) FROM Log;")
     log.info("    #{__method__}　NormalEnd")
     return true
-  rescue
+  rescue => error
+    log.error("      #{error.message}")
     log.error("    #{__method__} AbnormalEnd")
     return false
   ensure
@@ -30,7 +31,8 @@ def evaluation_insert(array_avg,db,log)
     end
     log.info("    #{__method__} NormalEnd")
     return true
-  rescue
+  rescue => error
+    log.error("      #{error.message}")
     log.error("    #{__method__} AbNormalEnd")
     return false
   ensure
@@ -46,7 +48,8 @@ def evaluation_latest(eva_value,db,log)
     end
     log.info("    #{__method__} NormalEnd")
     return true
-  rescue
+  rescue => error
+    log.error("      #{error.message}")
     log.error("    #{__method__} AbNormalEnd")
     return false
   ensure
@@ -62,7 +65,7 @@ def evaluation_decision(city_name,array_avg,delay_date,log)
 
   begin
     log.info("    #{__method__} Start")
-    if !weather_prediction(city_name,result) then
+    if !weather_prediction(city_name,result,log) then
       return false
     end
     result[0]['list'][0].each do |list|
@@ -77,14 +80,16 @@ def evaluation_decision(city_name,array_avg,delay_date,log)
 
     log.info("    #{__method__} NormalEnd")
     return true
-  rescue
+  rescue => error
+    log.error("      #{error.message}")
     log.error("    #{__method__} AbNormalEnd")
     return false
   end
 end
 
-def weather_prediction(city_name,result)
+def weather_prediction(city_name,result,log)
   begin
+    log.info("    #{__method__} Start")
     api_key = ENV['OPEN_WEATHER_APIKEY']
     uri = URI.parse("http://api.openweathermap.org/data/2.5/forecast?q=#{city_name},jp&units=metric&APPID=#{api_key}")
     json = Net::HTTP.get(uri)
@@ -95,7 +100,9 @@ def weather_prediction(city_name,result)
     else
       return false
     end
-  rescue
+  rescue => error
+    log.error("      #{error.message}")
+    log.error("    #{__method__} AbNormalEnd")
     return false
   end
 end
@@ -118,6 +125,7 @@ def notification_dalay(delay_date,log)
       count = count + 1
      end}
     EOS
+
     uri = URI.parse("https://notify-api.line.me/api/notify")
     request = Net::HTTP::Post.new(uri)
     request["Authorization"] = "Bearer jxYKtF5C7A0AYWp10m9adqrykZwuQIkQRXQVHm8L3hi"
@@ -133,7 +141,8 @@ def notification_dalay(delay_date,log)
       http.request(request)
     end
     log.info("    #{__method__} NormalEnd")
-  rescue
+  rescue => error
+    log.error("      #{error.message}")
     log.error("    #{__method__} AbnormalEnd")
     return false
   end
@@ -170,7 +179,8 @@ def notification_main(city_name,log)
       end
     end
     return true
-  rescue
+  rescue => error
+    log.error("      #{error.message}")
     return false
   ensure
     db.close
