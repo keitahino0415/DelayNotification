@@ -6,10 +6,22 @@ require 'OpenSSL'
 require 'sqlite3'
 require 'date'
 
+def sql_log(indent,exec_sql,log)
+  buf = ""
+    for indent in 1..indent do
+      buf = buf + " "
+    end
+    log.info("#{buf}実行SQL----------------------------------------")
+    log.info("#{buf}  #{exec_sql}")
+    log.info("#{buf}-----------------------------------------------")
+end
+
 def notification_get(array_avg,db,log)
   begin
+    exec_sql = "SELECT ROUND(AVG(wind_speed),2) FROM Log;"
     log.info("    #{__method__}　Start")
-    array_avg.push(db.execute "SELECT ROUND(AVG(wind_speed),2) FROM Log;")
+    sql_log(6,exec_sql,log)
+    array_avg.push(db.execute exec_sql)
     log.info("    #{__method__}　NormalEnd")
     return true
   rescue => error
@@ -22,9 +34,15 @@ end
 
 def evaluation_insert(array_avg,db,log)
   begin
+    inset_sql = "INSERT INTO evaluation (Wind_Avg,Create_Date) VALUES(#{array_avg[0][0][0]},'#{Date.today}');"
+    line_get_sql = "SELECT changes();"
     log.info("    #{__method__} Start")
-    db.execute "INSERT INTO evaluation (Wind_Avg) VALUES(#{array_avg[0][0][0]});"
-    proc_line = db.execute "SELECT changes();"
+    sql_log(6,inset_sql,log)
+    db.execute inset_sql
+
+    #追加した行取得
+    sql_log(6,line_get_sql,log)
+    proc_line = db.execute line_get_sql
 
     if proc_line == 0
       return false
@@ -42,7 +60,9 @@ end
 def evaluation_latest(eva_value,db,log)
   begin
     log.info("    #{__method__} Start")
-    eva_value = db.execute "SELECT MAX(id),wind_avg FROM evaluation;"
+    exec_sql = "SELECT MAX(id),wind_avg FROM evaluation;"
+    sql_log(6,exec_sql,log)
+    eva_value = db.execute exec_sql
     if eva_value[0][1].nil?
       return false
     end

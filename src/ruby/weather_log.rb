@@ -5,8 +5,6 @@ def create_table(w_arr,db)
   db.execute "CREATE TABLE Log(Id INTEGER PRIMARY KEY,
       CreateDate TEXT, City_Name TEXT,Rain_Check TEXT,
       Snow_Check TEXT, Wind_Deg TEXT, Wind_Speed TEXT)"
-  puts "#{w_arr[1]}を新しく作成したよ"
-  # db.close
 end
 
 #テーブル存在チェック

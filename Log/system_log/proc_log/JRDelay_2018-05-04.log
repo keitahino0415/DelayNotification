@@ -1,0 +1,391 @@
+# Logfile created on 2018-05-04 13:00:56 +0900 by logger.rb/61378
+I, [2018-05-04T13:00:56.027662 #40037]  INFO -- : --------------------------------------------------
+I, [2018-05-04T13:00:56.027706 #40037]  INFO -- :   MainProc Start
+I, [2018-05-04T13:00:56.027733 #40037]  INFO -- :     weather_main start
+I, [2018-05-04T13:00:56.305550 #40037]  INFO -- :     weather_main NormalEnd
+I, [2018-05-04T13:00:56.305676 #40037]  INFO -- :     log_update Start
+I, [2018-05-04T13:00:56.324519 #40037]  INFO -- :       Execution SQL-------------------------------------------------------------------------------------------
+I, [2018-05-04T13:00:56.324611 #40037]  INFO -- :         INSERT INTO Log(CreateDate,City_Name,Rain_Check,Snow_Check,Wind_Deg,Wind_Speed)
+I, [2018-05-04T13:00:56.324669 #40037]  INFO -- :         VALUES ('2018-05-04' , 'Ishinomaki','true','true','北西','6.2')
+I, [2018-05-04T13:00:56.324696 #40037]  INFO -- :       --------------------------------------------------------------------------------------------------------
+I, [2018-05-04T13:00:56.324731 #40037]  INFO -- :     log_update NormalEnd
+I, [2018-05-04T13:00:56.324844 #40037]  INFO -- :   MainProc NormalEnd
+I, [2018-05-04T13:00:56.324878 #40037]  INFO -- : --------------------------------------------------
+I, [2018-05-04T13:38:33.672963 #40195]  INFO -- : --------------------------------------------------
+I, [2018-05-04T13:38:33.673044 #40195]  INFO -- :   Train delay notification processing Start
+E, [2018-05-04T13:38:33.674880 #40195] ERROR -- :       undefined local variable or method `date' for main:Object
+E, [2018-05-04T13:38:33.674947 #40195] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-05-04T13:38:33.674972 #40195]  INFO -- : --------------------------------------------------
+I, [2018-05-04T13:39:00.115184 #40211]  INFO -- : --------------------------------------------------
+I, [2018-05-04T13:39:00.115266 #40211]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T13:39:00.116743 #40211]  INFO -- :     notification_get　Start
+I, [2018-05-04T13:39:00.120271 #40211]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T13:39:00.120333 #40211]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T13:39:00.121639 #40211]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T13:39:00.121713 #40211]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T13:39:00.121873 #40211]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T13:39:00.121937 #40211]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T13:39:00.121994 #40211]  INFO -- :     weather_prediction Start
+I, [2018-05-04T13:39:00.508774 #40211]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T13:39:00.508883 #40211]  INFO -- :     notification_dalay Start
+I, [2018-05-04T13:39:00.753255 #40211]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T13:39:00.753502 #40211]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T13:39:00.753563 #40211]  INFO -- : --------------------------------------------------
+I, [2018-05-04T13:40:47.625385 #40241]  INFO -- : --------------------------------------------------
+I, [2018-05-04T13:40:47.625452 #40241]  INFO -- :   Train delay notification processing Start
+E, [2018-05-04T13:40:47.627596 #40241] ERROR -- :       undefined local variable or method `date' for main:Object
+E, [2018-05-04T13:40:47.627669 #40241] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-05-04T13:40:47.627694 #40241]  INFO -- : --------------------------------------------------
+I, [2018-05-04T13:41:39.509997 #40257]  INFO -- : --------------------------------------------------
+I, [2018-05-04T13:41:39.510067 #40257]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T13:41:39.510868 #40257]  INFO -- :     notification_get　Start
+I, [2018-05-04T13:41:39.511160 #40257]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T13:41:39.511193 #40257]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T13:41:39.517511 #40257]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T13:41:39.517622 #40257]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T13:41:39.517813 #40257]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T13:41:39.517875 #40257]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T13:41:39.517892 #40257]  INFO -- :     weather_prediction Start
+I, [2018-05-04T13:41:39.879980 #40257]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T13:41:39.880115 #40257]  INFO -- :     notification_dalay Start
+I, [2018-05-04T13:41:40.091277 #40257]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T13:41:40.091592 #40257]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T13:41:40.091661 #40257]  INFO -- : --------------------------------------------------
+I, [2018-05-04T13:44:28.506283 #40281]  INFO -- : --------------------------------------------------
+I, [2018-05-04T13:44:28.506346 #40281]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T13:44:28.507046 #40281]  INFO -- :     notification_get　Start
+I, [2018-05-04T13:44:28.507321 #40281]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T13:44:28.507348 #40281]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T13:44:28.514060 #40281]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T13:44:28.514175 #40281]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T13:44:28.514355 #40281]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T13:44:28.514388 #40281]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T13:44:28.514410 #40281]  INFO -- :     weather_prediction Start
+I, [2018-05-04T13:44:28.777356 #40281]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T13:44:28.777462 #40281]  INFO -- :     notification_dalay Start
+I, [2018-05-04T13:44:28.901685 #40281]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T13:44:28.901993 #40281]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T13:44:28.902054 #40281]  INFO -- : --------------------------------------------------
+I, [2018-05-04T13:59:29.275281 #40314]  INFO -- : --------------------------------------------------
+I, [2018-05-04T13:59:29.275353 #40314]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T13:59:29.276116 #40314]  INFO -- :     notification_get　Start
+I, [2018-05-04T13:59:29.276409 #40314]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T13:59:29.276452 #40314]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T13:59:29.282775 #40314]  INFO -- :       実行SQL-------------------------------------------------
+I, [2018-05-04T13:59:29.282850 #40314]  INFO -- :         INSERT INTO evaluation (Wind_Avg,Create_Date) VALUES(4.5,2018-05-04);
+I, [2018-05-04T13:59:29.282879 #40314]  INFO -- :       -------------------------------------------------------
+I, [2018-05-04T13:59:29.282989 #40314]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T13:59:29.283041 #40314]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T13:59:29.283207 #40314]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T13:59:29.283238 #40314]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T13:59:29.283256 #40314]  INFO -- :     weather_prediction Start
+I, [2018-05-04T13:59:29.659912 #40314]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T13:59:29.660020 #40314]  INFO -- :     notification_dalay Start
+I, [2018-05-04T13:59:29.892667 #40314]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T13:59:29.892897 #40314]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T13:59:29.892950 #40314]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:00:24.677329 #40335]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:00:24.677395 #40335]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:00:24.678152 #40335]  INFO -- :     notification_get　Start
+I, [2018-05-04T14:00:24.678422 #40335]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T14:00:24.678463 #40335]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T14:00:24.685095 #40335]  INFO -- :       実行SQL-------------------------------------------------
+I, [2018-05-04T14:00:24.685179 #40335]  INFO -- :         INSERT INTO evaluation (Wind_Avg,Create_Date) VALUES(4.5,'2018-05-04');
+I, [2018-05-04T14:00:24.685207 #40335]  INFO -- :       -------------------------------------------------------
+I, [2018-05-04T14:00:24.685311 #40335]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T14:00:24.685379 #40335]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T14:00:24.685494 #40335]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T14:00:24.685524 #40335]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T14:00:24.685548 #40335]  INFO -- :     weather_prediction Start
+I, [2018-05-04T14:00:24.948228 #40335]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T14:00:24.948315 #40335]  INFO -- :     notification_dalay Start
+I, [2018-05-04T14:00:25.123957 #40335]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T14:00:25.124264 #40335]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T14:00:25.124740 #40335]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:43:32.878978 #40579]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:43:32.879048 #40579]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:43:32.879872 #40579]  INFO -- :     notification_get　Start
+I, [2018-05-04T14:43:32.879904 #40579]  INFO -- :       実行SQL-------------------------------------------------
+I, [2018-05-04T14:43:32.879924 #40579]  INFO -- :         SELECT ROUND(AVG(wind_speed),2) FROM Log;
+I, [2018-05-04T14:43:32.879943 #40579]  INFO -- :       -------------------------------------------------------
+I, [2018-05-04T14:43:32.880222 #40579]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T14:43:32.880264 #40579]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T14:43:32.880284 #40579]  INFO -- :       実行SQL-------------------------------------------------
+I, [2018-05-04T14:43:32.880302 #40579]  INFO -- :         INSERT INTO evaluation (Wind_Avg,Create_Date) VALUES(4.5,'2018-05-04');
+I, [2018-05-04T14:43:32.880320 #40579]  INFO -- :       -------------------------------------------------------
+I, [2018-05-04T14:43:32.886446 #40579]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T14:43:32.886503 #40579]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T14:43:32.886595 #40579]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T14:43:32.886622 #40579]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T14:43:32.886645 #40579]  INFO -- :     weather_prediction Start
+I, [2018-05-04T14:43:33.259879 #40579]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T14:43:33.259991 #40579]  INFO -- :     notification_dalay Start
+I, [2018-05-04T14:43:33.476812 #40579]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T14:43:33.477053 #40579]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T14:43:33.477106 #40579]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:44:01.649496 #40597]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:44:01.649566 #40597]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:44:01.650412 #40597]  INFO -- :     notification_get　Start
+I, [2018-05-04T14:44:01.650702 #40597]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T14:44:01.650748 #40597]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T14:44:01.650768 #40597]  INFO -- :       実行SQL-------------------------------------------------
+I, [2018-05-04T14:44:01.650786 #40597]  INFO -- :         INSERT INTO evaluation (Wind_Avg,Create_Date) VALUES(4.5,'2018-05-04');
+I, [2018-05-04T14:44:01.650802 #40597]  INFO -- :       -------------------------------------------------------
+I, [2018-05-04T14:44:01.657444 #40597]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T14:44:01.657509 #40597]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T14:44:01.657627 #40597]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T14:44:01.657657 #40597]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T14:44:01.657678 #40597]  INFO -- :     weather_prediction Start
+I, [2018-05-04T14:44:01.944854 #40597]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T14:44:01.944945 #40597]  INFO -- :     notification_dalay Start
+I, [2018-05-04T14:44:02.082481 #40597]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T14:44:02.082704 #40597]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T14:44:02.082746 #40597]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:44:51.043975 #40614]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:44:51.044052 #40614]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:44:51.044842 #40614]  INFO -- :     notification_get　Start
+E, [2018-05-04T14:44:51.044890 #40614] ERROR -- :       bad value for range
+E, [2018-05-04T14:44:51.044912 #40614] ERROR -- :     notification_get AbnormalEnd
+E, [2018-05-04T14:44:51.044960 #40614] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-05-04T14:44:51.044980 #40614]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:45:56.983910 #40634]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:45:56.983980 #40634]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:45:56.984752 #40634]  INFO -- :     notification_get　Start
+E, [2018-05-04T14:45:56.984792 #40634] ERROR -- :       bad value for range
+E, [2018-05-04T14:45:56.984816 #40634] ERROR -- :     notification_get AbnormalEnd
+E, [2018-05-04T14:45:56.984867 #40634] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-05-04T14:45:56.984887 #40634]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:46:13.571480 #40648]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:46:13.915414 #40648]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:46:19.383619 #40648]  INFO -- :     notification_get　Start
+E, [2018-05-04T14:46:19.383812 #40648] ERROR -- :       bad value for range
+E, [2018-05-04T14:46:19.383926 #40648] ERROR -- :     notification_get AbnormalEnd
+E, [2018-05-04T14:46:25.295116 #40648] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-05-04T14:46:25.534856 #40648]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:46:49.450616 #40682]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:46:50.217159 #40682]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:47:09.401518 #40682]  INFO -- :     notification_get　Start
+E, [2018-05-04T14:47:10.502570 #40682] ERROR -- :       bad value for range
+E, [2018-05-04T14:47:10.502733 #40682] ERROR -- :     notification_get AbnormalEnd
+E, [2018-05-04T14:47:11.931807 #40682] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-05-04T14:47:11.932015 #40682]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:47:41.443177 #40723]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:47:41.443244 #40723]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:47:41.444202 #40723]  INFO -- :     notification_get　Start
+I, [2018-05-04T14:47:41.444539 #40723]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T14:47:41.444584 #40723]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T14:47:41.444606 #40723]  INFO -- :       実行SQL-------------------------------------------------
+I, [2018-05-04T14:47:41.444623 #40723]  INFO -- :         INSERT INTO evaluation (Wind_Avg,Create_Date) VALUES(4.5,'2018-05-04');
+I, [2018-05-04T14:47:41.444641 #40723]  INFO -- :       -------------------------------------------------------
+I, [2018-05-04T14:47:41.447529 #40723]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T14:47:41.447611 #40723]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T14:47:41.447725 #40723]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T14:47:41.447758 #40723]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T14:47:41.447783 #40723]  INFO -- :     weather_prediction Start
+I, [2018-05-04T14:47:41.780649 #40723]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T14:47:41.780816 #40723]  INFO -- :     notification_dalay Start
+I, [2018-05-04T14:47:41.976831 #40723]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T14:47:41.977066 #40723]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T14:47:41.977123 #40723]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:49:37.615156 #40741]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:49:37.615222 #40741]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:49:37.615964 #40741]  INFO -- :     notification_get　Start
+E, [2018-05-04T14:49:37.616016 #40741] ERROR -- :       bad value for range
+E, [2018-05-04T14:49:37.616035 #40741] ERROR -- :     notification_get AbnormalEnd
+E, [2018-05-04T14:49:37.616081 #40741] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-05-04T14:49:37.616101 #40741]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:52:04.933857 #40832]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:52:04.933930 #40832]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:52:04.934715 #40832]  INFO -- :     notification_get　Start
+I, [2018-05-04T14:52:04.934761 #40832]  INFO -- : 6実行SQL-----------------------------------------
+I, [2018-05-04T14:52:04.934783 #40832]  INFO -- : 6  SELECT ROUND(AVG(wind_speed),2) FROM Log;
+I, [2018-05-04T14:52:04.934801 #40832]  INFO -- : 6-----------------------------------------------
+I, [2018-05-04T14:52:04.935081 #40832]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T14:52:04.935122 #40832]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T14:52:04.935141 #40832]  INFO -- :       実行SQL-------------------------------------------------
+I, [2018-05-04T14:52:04.935158 #40832]  INFO -- :         INSERT INTO evaluation (Wind_Avg,Create_Date) VALUES(4.5,'2018-05-04');
+I, [2018-05-04T14:52:04.935175 #40832]  INFO -- :       -------------------------------------------------------
+I, [2018-05-04T14:52:04.941507 #40832]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T14:52:04.941621 #40832]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T14:52:04.941775 #40832]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T14:52:04.941807 #40832]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T14:52:04.941829 #40832]  INFO -- :     weather_prediction Start
+I, [2018-05-04T14:52:05.214792 #40832]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T14:52:05.214902 #40832]  INFO -- :     notification_dalay Start
+I, [2018-05-04T14:52:05.420969 #40832]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T14:52:05.421207 #40832]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T14:52:05.421262 #40832]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:52:56.736299 #40849]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:52:56.736375 #40849]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:52:56.737188 #40849]  INFO -- :     notification_get　Start
+I, [2018-05-04T14:52:56.737225 #40849]  INFO -- :       実行SQL-----------------------------------------
+I, [2018-05-04T14:52:56.737248 #40849]  INFO -- :         SELECT ROUND(AVG(wind_speed),2) FROM Log;
+I, [2018-05-04T14:52:56.737265 #40849]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:52:56.737554 #40849]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T14:52:56.737596 #40849]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T14:52:56.737628 #40849]  INFO -- :       実行SQL-------------------------------------------------
+I, [2018-05-04T14:52:56.737646 #40849]  INFO -- :         INSERT INTO evaluation (Wind_Avg,Create_Date) VALUES(4.5,'2018-05-04');
+I, [2018-05-04T14:52:56.737664 #40849]  INFO -- :       -------------------------------------------------------
+I, [2018-05-04T14:52:56.744274 #40849]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T14:52:56.744335 #40849]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T14:52:56.744442 #40849]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T14:52:56.744487 #40849]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T14:52:56.744505 #40849]  INFO -- :     weather_prediction Start
+I, [2018-05-04T14:52:58.277583 #40849]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T14:52:58.277698 #40849]  INFO -- :     notification_dalay Start
+I, [2018-05-04T14:52:58.403563 #40849]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T14:52:58.403789 #40849]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T14:52:58.403839 #40849]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:54:43.562461 #40871]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:54:43.562535 #40871]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:54:43.563335 #40871]  INFO -- :     notification_get　Start
+I, [2018-05-04T14:54:43.563375 #40871]  INFO -- :       実行SQL-----------------------------------------
+I, [2018-05-04T14:54:43.563397 #40871]  INFO -- :         SELECT ROUND(AVG(wind_speed),2) FROM Log;
+I, [2018-05-04T14:54:43.563417 #40871]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:54:43.563699 #40871]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T14:54:43.563741 #40871]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T14:54:43.563764 #40871]  INFO -- :       実行SQL-------------------------------------------------
+I, [2018-05-04T14:54:43.563781 #40871]  INFO -- :         INSERT INTO evaluation (Wind_Avg,Create_Date) VALUES(4.5,'2018-05-04');
+I, [2018-05-04T14:54:43.563799 #40871]  INFO -- :       -------------------------------------------------------
+I, [2018-05-04T14:54:43.566604 #40871]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T14:54:43.566661 #40871]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T14:54:43.566753 #40871]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T14:54:43.566780 #40871]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T14:54:43.566804 #40871]  INFO -- :     weather_prediction Start
+I, [2018-05-04T14:54:43.861267 #40871]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T14:54:43.861376 #40871]  INFO -- :     notification_dalay Start
+I, [2018-05-04T14:54:44.002273 #40871]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T14:54:44.002500 #40871]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T14:54:44.002552 #40871]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:55:05.331224 #40888]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:55:05.331289 #40888]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:55:05.332001 #40888]  INFO -- :     notification_get　Start
+I, [2018-05-04T14:55:05.332034 #40888]  INFO -- :       実行SQL-----------------------------------------
+I, [2018-05-04T14:55:05.332056 #40888]  INFO -- :         SELECT ROUND(AVG(wind_speed),2) FROM Log;
+I, [2018-05-04T14:55:05.332073 #40888]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:55:05.332329 #40888]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T14:55:05.332368 #40888]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T14:55:05.332389 #40888]  INFO -- :       実行SQL-------------------------------------------------
+I, [2018-05-04T14:55:05.332405 #40888]  INFO -- :         INSERT INTO evaluation (Wind_Avg,Create_Date) VALUES(4.5,'2018-05-04');
+I, [2018-05-04T14:55:05.332433 #40888]  INFO -- :       -------------------------------------------------------
+I, [2018-05-04T14:55:05.338861 #40888]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T14:55:05.338944 #40888]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T14:55:05.339097 #40888]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T14:55:05.339137 #40888]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T14:55:05.339165 #40888]  INFO -- :     weather_prediction Start
+I, [2018-05-04T14:55:05.613138 #40888]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T14:55:05.613256 #40888]  INFO -- :     notification_dalay Start
+I, [2018-05-04T14:55:05.733293 #40888]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T14:55:05.733517 #40888]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T14:55:05.733566 #40888]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:56:11.027828 #40908]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:56:11.027895 #40908]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:56:11.028672 #40908]  INFO -- :     notification_get　Start
+I, [2018-05-04T14:56:11.028709 #40908]  INFO -- :       実行SQL-----------------------------------------
+I, [2018-05-04T14:56:11.028731 #40908]  INFO -- :         SELECT ROUND(AVG(wind_speed),2) FROM Log;
+I, [2018-05-04T14:56:11.028747 #40908]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:56:11.029024 #40908]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T14:56:11.029066 #40908]  INFO -- :     evaluation_insert Start
+E, [2018-05-04T14:56:11.029106 #40908] ERROR -- :       wrong number of arguments (given 2, expected 3)
+E, [2018-05-04T14:56:11.029126 #40908] ERROR -- :     evaluation_insert AbNormalEnd
+E, [2018-05-04T14:56:11.029176 #40908] ERROR -- :   Train delay notification processing AbnormalEnd
+I, [2018-05-04T14:56:11.029195 #40908]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:56:25.966999 #40924]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:56:25.967072 #40924]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:56:25.967879 #40924]  INFO -- :     notification_get　Start
+I, [2018-05-04T14:56:25.967920 #40924]  INFO -- :       実行SQL-----------------------------------------
+I, [2018-05-04T14:56:25.967941 #40924]  INFO -- :         SELECT ROUND(AVG(wind_speed),2) FROM Log;
+I, [2018-05-04T14:56:25.967958 #40924]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:56:25.968237 #40924]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T14:56:25.968281 #40924]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T14:56:25.968305 #40924]  INFO -- :       実行SQL-----------------------------------------
+I, [2018-05-04T14:56:25.968322 #40924]  INFO -- :         INSERT INTO evaluation (Wind_Avg,Create_Date) VALUES(4.5,'2018-05-04');
+I, [2018-05-04T14:56:25.968341 #40924]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:56:25.974519 #40924]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T14:56:25.974615 #40924]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T14:56:25.974734 #40924]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T14:56:25.974765 #40924]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T14:56:25.974784 #40924]  INFO -- :     weather_prediction Start
+I, [2018-05-04T14:56:26.256130 #40924]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T14:56:26.256239 #40924]  INFO -- :     notification_dalay Start
+I, [2018-05-04T14:56:26.381336 #40924]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T14:56:26.381562 #40924]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T14:56:26.381614 #40924]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:58:16.198893 #40944]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:58:16.198959 #40944]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:58:16.199856 #40944]  INFO -- :     notification_get　Start
+I, [2018-05-04T14:58:16.199900 #40944]  INFO -- :       実行SQL-----------------------------------------
+I, [2018-05-04T14:58:16.199922 #40944]  INFO -- :         SELECT ROUND(AVG(wind_speed),2) FROM Log;
+I, [2018-05-04T14:58:16.199940 #40944]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:58:16.200225 #40944]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T14:58:16.200270 #40944]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T14:58:16.200294 #40944]  INFO -- :       実行SQL-----------------------------------------
+I, [2018-05-04T14:58:16.200312 #40944]  INFO -- :         INSERT INTO evaluation (Wind_Avg,Create_Date) VALUES(4.5,'2018-05-04');
+I, [2018-05-04T14:58:16.200331 #40944]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:58:16.201502 #40944]  INFO -- :       実行SQL-----------------------------------------
+I, [2018-05-04T14:58:16.201586 #40944]  INFO -- :         SELECT changes();
+I, [2018-05-04T14:58:16.201625 #40944]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:58:16.201729 #40944]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T14:58:16.201773 #40944]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T14:58:16.201945 #40944]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T14:58:16.201973 #40944]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T14:58:16.202011 #40944]  INFO -- :     weather_prediction Start
+I, [2018-05-04T14:58:16.473072 #40944]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T14:58:16.473180 #40944]  INFO -- :     notification_dalay Start
+I, [2018-05-04T14:58:16.601470 #40944]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T14:58:16.601704 #40944]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T14:58:16.601757 #40944]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:59:25.738224 #40963]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:59:25.738293 #40963]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:59:25.739059 #40963]  INFO -- :     notification_get　Start
+I, [2018-05-04T14:59:25.739094 #40963]  INFO -- :       実行SQL-----------------------------------------
+I, [2018-05-04T14:59:25.739120 #40963]  INFO -- :         SELECT ROUND(AVG(wind_speed),2) FROM Log;
+I, [2018-05-04T14:59:25.739137 #40963]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:59:25.739424 #40963]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T14:59:25.739464 #40963]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T14:59:25.739490 #40963]  INFO -- :       実行SQL-----------------------------------------
+I, [2018-05-04T14:59:25.739507 #40963]  INFO -- :         INSERT INTO evaluation (Wind_Avg,Create_Date) VALUES(4.5,'2018-05-04');
+I, [2018-05-04T14:59:25.739523 #40963]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:59:25.745923 #40963]  INFO -- :       実行SQL-----------------------------------------
+I, [2018-05-04T14:59:25.746001 #40963]  INFO -- :         SELECT changes();
+I, [2018-05-04T14:59:25.746061 #40963]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:59:25.746146 #40963]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T14:59:25.746174 #40963]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T14:59:25.746198 #40963]  INFO -- :       実行SQL-----------------------------------------
+I, [2018-05-04T14:59:25.746219 #40963]  INFO -- :         SELECT MAX(id),wind_avg FROM evaluation;
+I, [2018-05-04T14:59:25.746236 #40963]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:59:25.746374 #40963]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T14:59:25.746436 #40963]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T14:59:25.746471 #40963]  INFO -- :     weather_prediction Start
+I, [2018-05-04T14:59:26.023814 #40963]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T14:59:26.023920 #40963]  INFO -- :     notification_dalay Start
+I, [2018-05-04T14:59:26.148046 #40963]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T14:59:26.148271 #40963]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T14:59:26.148318 #40963]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:59:52.916906 #40980]  INFO -- : --------------------------------------------------
+I, [2018-05-04T14:59:52.916978 #40980]  INFO -- :   Train delay notification processing Start
+I, [2018-05-04T14:59:52.917837 #40980]  INFO -- :     notification_get　Start
+I, [2018-05-04T14:59:52.917871 #40980]  INFO -- :       実行SQL----------------------------------------
+I, [2018-05-04T14:59:52.917892 #40980]  INFO -- :         SELECT ROUND(AVG(wind_speed),2) FROM Log;
+I, [2018-05-04T14:59:52.917909 #40980]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:59:52.918171 #40980]  INFO -- :     notification_get　NormalEnd
+I, [2018-05-04T14:59:52.918212 #40980]  INFO -- :     evaluation_insert Start
+I, [2018-05-04T14:59:52.918238 #40980]  INFO -- :       実行SQL----------------------------------------
+I, [2018-05-04T14:59:52.918254 #40980]  INFO -- :         INSERT INTO evaluation (Wind_Avg,Create_Date) VALUES(4.5,'2018-05-04');
+I, [2018-05-04T14:59:52.918269 #40980]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:59:52.924865 #40980]  INFO -- :       実行SQL----------------------------------------
+I, [2018-05-04T14:59:52.924954 #40980]  INFO -- :         SELECT changes();
+I, [2018-05-04T14:59:52.924975 #40980]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:59:52.925060 #40980]  INFO -- :     evaluation_insert NormalEnd
+I, [2018-05-04T14:59:52.925123 #40980]  INFO -- :     evaluation_latest Start
+I, [2018-05-04T14:59:52.925145 #40980]  INFO -- :       実行SQL----------------------------------------
+I, [2018-05-04T14:59:52.925163 #40980]  INFO -- :         SELECT MAX(id),wind_avg FROM evaluation;
+I, [2018-05-04T14:59:52.925671 #40980]  INFO -- :       -----------------------------------------------
+I, [2018-05-04T14:59:52.925782 #40980]  INFO -- :     evaluation_latest NormalEnd
+I, [2018-05-04T14:59:52.925862 #40980]  INFO -- :     evaluation_decision Start
+I, [2018-05-04T14:59:52.925880 #40980]  INFO -- :     weather_prediction Start
+I, [2018-05-04T14:59:53.186350 #40980]  INFO -- :     evaluation_decision NormalEnd
+I, [2018-05-04T14:59:53.186439 #40980]  INFO -- :     notification_dalay Start
+I, [2018-05-04T14:59:53.311359 #40980]  INFO -- :     notification_dalay NormalEnd
+I, [2018-05-04T14:59:53.311592 #40980]  INFO -- :   Train delay notification processing NormalEnd
+I, [2018-05-04T14:59:53.311645 #40980]  INFO -- : --------------------------------------------------
