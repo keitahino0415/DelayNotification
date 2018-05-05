@@ -6,6 +6,21 @@ require 'OpenSSL'
 require 'sqlite3'
 require 'date'
 
+def table_isexist(db)
+  count =  db.execute "SELECT COUNT(*) FROM sqlite_master WHERE type = 'table' AND name = 'Evaluation';"
+  if count[0][0].zero?
+    return false
+  else
+    return true
+  end
+ end
+
+def create_table(db)
+  db.execute "CREATE TABLE Log(Id INTEGER PRIMARY KEY,
+             CreateDate TEXT, City_Name TEXT,Rain_Check TEXT,
+             Snow_Check TEXT, Wind_Deg TEXT, Wind_Speed TEXT)"
+end
+
 def sql_log(indent,exec_sql,log)
   buf = ""
     for indent in 1..indent do
@@ -177,6 +192,10 @@ def notification_main(city_name,log)
     eva_value = []
     delay_date = []
     db = SQLite3::Database.open "../../DB/weather_db/#{city_name}.db"
+
+    if table_isexist(db) == false
+      create_table(db)
+    end
 
     if !notification_get(array_avg,db,log) then
       return false

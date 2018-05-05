@@ -72,7 +72,7 @@ def weather_main(city_name,weather_array,log)
     weather_array.push(snow_check)
     weather_array.push(wind_deg)
     weather_array.push(wind_speed)
-    
+
     log.info("    #{__method__} NormalEnd")
     return true
   rescue => error
