@@ -17,8 +17,8 @@ def table_isexist(db)
 
 def create_table(db)
   db.execute "CREATE TABLE Log(Id INTEGER PRIMARY KEY,
-             CreateDate TEXT, City_Name TEXT,Rain_Check TEXT,
-             Snow_Check TEXT, Wind_Deg TEXT, Wind_Speed TEXT)"
+              CreateDate TEXT, City_Name TEXT,Rain_Check TEXT,
+              Snow_Check TEXT, Wind_Deg TEXT, Wind_Speed TEXT)"
 end
 
 def sql_log(indent,exec_sql,log)
@@ -125,8 +125,8 @@ end
 def weather_prediction(city_name,result,log)
   begin
     log.info("    #{__method__} Start")
-    api_key = ENV['OPEN_WEATHER_APIKEY']
-    uri = URI.parse("http://api.openweathermap.org/data/2.5/forecast?q=#{city_name},jp&units=metric&APPID=#{api_key}")
+    weather_api_key = ENV['OPEN_WEATHER_APIKEY']
+    uri = URI.parse("http://api.openweathermap.org/data/2.5/forecast?q=#{city_name},jp&units=metric&APPID=#{weather_api_key}")
     json = Net::HTTP.get(uri)
     result.push(JSON.parse(json))
     code = result[0]["cnt"]
@@ -144,16 +144,15 @@ end
 
 def notification_dalay(delay_date,log)
   begin
-    log.info("    #{__method__} Start")
     buf = []
     count = 0
+    line_accsess_key = ENV['LINE_NOTIFY_KEY']
 
+    log.info("    #{__method__} Start")
     buf << "本日、下記の時間帯にJRが遅延する恐れがあります"
-
     delay_date.each do |msg|
       buf << msg
     end
-
     message = <<-EOS
     #{buf.each do
       buf[count]
@@ -163,7 +162,7 @@ def notification_dalay(delay_date,log)
 
     uri = URI.parse("https://notify-api.line.me/api/notify")
     request = Net::HTTP::Post.new(uri)
-    request["Authorization"] = "Bearer jxYKtF5C7A0AYWp10m9adqrykZwuQIkQRXQVHm8L3hi"
+    request["Authorization"] = "Bearer #{line_accsess_key}"
     request.set_form_data(
       "message" => "#{message}",
     )

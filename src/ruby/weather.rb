@@ -31,8 +31,8 @@ end
 
 def get_weather(city_name,result)
 
-  api_key = ENV['OPEN_WEATHER_APIKEY']
-  uri = URI.parse("http://api.openweathermap.org/data/2.5/find?q=#{city_name},jp&units=metric&APPID=#{api_key}")
+  weather_api_key = ENV['OPEN_WEATHER_APIKEY']
+  uri = URI.parse("http://api.openweathermap.org/data/2.5/find?q=#{city_name},jp&units=metric&APPID=#{weather_api_key}")
   json = Net::HTTP.get(uri)
 
   result.push(JSON.parse(json))
