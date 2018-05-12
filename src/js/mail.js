@@ -3,14 +3,16 @@
 var inbox = require('inbox');
 var iconv = require('iconv');
 var conv = new iconv.Iconv("ISO-2022-JP", "UTF-8");
+var mail_address = process.env.MAIL_ADDRESS
+var mail_pass = process.env.MAIL_PASSWORD
 
 const simpleParser = require('mailparser').simpleParser;
 
 var client = inbox.createConnection(false, 'imap.gmail.com', {
     secureConnection: true
     ,auth: {
-      user: "mailtestsample2@gmail.com",
-      pass: "keita0415",
+      user: $(mail_address),
+      pass: $(mail_pass),
     }
 });
 
