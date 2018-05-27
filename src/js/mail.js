@@ -11,8 +11,8 @@ const simpleParser = require('mailparser').simpleParser;
 var client = inbox.createConnection(false, 'imap.gmail.com', {
     secureConnection: true
     ,auth: {
-      user: $(mail_address),
-      pass: $(mail_pass),
+      user: (mail_address),
+      pass: (mail_pass),
     }
 });
 

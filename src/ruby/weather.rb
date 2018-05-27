@@ -3,7 +3,6 @@ require 'net/http'
 require 'net/https'
 require 'uri'
 require 'json'
-require 'OpenSSL'
 require 'sqlite3'
 require 'date'
 
@@ -29,10 +28,12 @@ def get_stat(check_target)
   end
 end
 
-def get_weather(city_name,result)
+def get_weather(city_name,lat,lng,result)
 
   weather_api_key = ENV['OPEN_WEATHER_APIKEY']
-  uri = URI.parse("http://api.openweathermap.org/data/2.5/find?q=#{city_name},jp&units=metric&APPID=#{weather_api_key}")
+#  uri = URI.parse("http://api.openweathermap.org/data/2.5/find?q=#{city_name},jp&units=metric&APPID=#{weather_api_key}")
+  uri = URI.parse("http://api.openweathermap.org/data/2.5/find?lat=#{lat}&lon=#{lng}&cnt=1&APPID=#{weather_api_key}")
+
   json = Net::HTTP.get(uri)
 
   result.push(JSON.parse(json))
@@ -45,13 +46,13 @@ def get_weather(city_name,result)
 
 end
 
-def weather_main(city_name,weather_array,log)
+def weather_main(city_name,lat,lng,weather_array,log)
   begin
     #変数定義
     result = []
 
     log.info("    #{__method__} start")
-    if !get_weather(city_name,result)
+    if !get_weather(city_name,lat,lng,result)
       log.error("      Please check that the name of the [#{city_name}] is correct")
       return false
     end

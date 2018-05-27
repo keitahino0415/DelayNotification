@@ -2,7 +2,6 @@ require 'net/http'
 require 'net/https'
 require 'uri'
 require 'json'
-require 'OpenSSL'
 require 'sqlite3'
 require 'date'
 
